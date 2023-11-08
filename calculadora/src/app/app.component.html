@@ -4,30 +4,79 @@
   <div>{{resultado}}</div>
 </div>
 <div>numeros
-  <div>{{cifra1}}</div>
-  <div>{{cifra2}}</div>
-  <div>{{cifra3}}</div>
-  <div>{{cifra4}}</div>
-  <div>{{cifra5}}</div>
-  <div>{{cifra6}}</div>
-  <div>{{cifra7}}</div>
-  <div>{{cifra8}}</div>
-  <div>{{cifra9}}</div>
-  <div>{{cifra0}}</div>
+  <table style="width:50%">
+    <tr>
+      <th>
+        <div>{{cifra1}}</div>
+      </th>
+      <th>
+        <div>{{cifra2}}</div>
+      </th>
+      <th>
+        <div>{{cifra3}}</div>
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <div>{{cifra4}}</div>
+      </th>
+      <th>
+        <div>{{cifra5}}</div>
+      </th>
+      <th>
+        <div>{{cifra6}}</div>
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <div>{{cifra7}}</div>
+      </th>
+      <th>
+        <div>{{cifra8}}</div>
+      </th>
+      <th>
+        <div>{{cifra9}}</div>
+      </th>
+    </tr>
+    <tr>
+      <th colspan="3">
+        <div>{{cifra0}}</div>
+      </th>
+    </tr>
+
+  </table>
+
 
 </div>
 
 <div class="contenedor-operaciones">operaciones
-  <div class="contenedor-boton-operaciones">suma
-    <button type="button" (click)="sumar()">mas</button>
-  </div>
-  <div class="contenedor-boton-operaciones">resta
-    <button type="button" (click)="restar()">menos</button>
-  </div>
-  <div class="contenedor-boton-operaciones">multiplicacion
-    <button type="button" (click)="multiplicar()">por</button>
-  </div>
-  <div class="contenedor-boton-operaciones">division
-    <button type="button" (click)="dividir()">entre</button>
-  </div>
+
+  <table style="width:50%">
+    <tr>
+      <th>
+        <div class="contenedor-boton-operaciones">
+          <button type="button" (click)="sumar()">mas</button>
+        </div>
+      </th>
+      <th>
+        <div class="contenedor-boton-operaciones">
+          <button type="button" (click)="restar()">menos</button>
+        </div>
+      </th>
+      <th>
+        <div class="contenedor-boton-operaciones">
+          <button type="button" (click)="multiplicar()">por</button>
+        </div>
+      </th>
+      <th>
+        <div class="contenedor-boton-operaciones">
+          <button type="button" (click)="dividir()">entre</button>
+        </div>
+      </th>
+    </tr>
+
+
+  </table>
+
+
 </div>

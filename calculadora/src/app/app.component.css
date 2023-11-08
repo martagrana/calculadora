@@ -1,3 +1,10 @@
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+
 .contenedor-operaciones {
     display: flex;
     clear: both;
