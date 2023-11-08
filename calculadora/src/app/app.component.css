@@ -1,0 +1,10 @@
+.contenedor-operaciones {
+    display: flex;
+    clear: both;
+    margin-top: 40px;
+    padding: 15px;
+}
+
+.contenedor-boton-operaciones {
+    border-color: green;
+}

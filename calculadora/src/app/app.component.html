@@ -1,19 +1,33 @@
 <h1>Calculadora</h1>
 <div>
   resultados
+  <div>{{resultado}}</div>
 </div>
-<div>numeros</div>
-<div>operaciones
-  <div>suma
-    <button type="button" onclick="alert('Hello world!')">mas</button>
+<div>numeros
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>
+  <div>0</div>
+
+</div>
+
+<div class="contenedor-operaciones">operaciones
+  <div class="contenedor-boton-operaciones">suma
+    <button type="button" onclick="sumar()">mas</button>
   </div>
-  <div>resta
-    <button type="button" onclick="alert('Hello world!')">menos</button>
+  <div class="contenedor-boton-operaciones">resta
+    <button type="button" onclick="restar()">menos</button>
   </div>
-  <div>multiplicacion
-    <button type="button" onclick="alert('Hello world!')">por</button>
+  <div class="contenedor-boton-operaciones">multiplicacion
+    <button type="button" onclick="multiplicar()">por</button>
   </div>
-  <div>division
-    <button type="button" onclick="alert('Hello world!')">entre</button>
+  <div class="contenedor-boton-operaciones">division
+    <button type="button" onclick="dividir()">entre</button>
   </div>
 </div>
