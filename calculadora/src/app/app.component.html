@@ -4,30 +4,30 @@
   <div>{{resultado}}</div>
 </div>
 <div>numeros
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>
-  <div>4</div>
-  <div>5</div>
-  <div>6</div>
-  <div>7</div>
-  <div>8</div>
-  <div>9</div>
-  <div>0</div>
+  <div>{{cifra1}}</div>
+  <div>{{cifra2}}</div>
+  <div>{{cifra3}}</div>
+  <div>{{cifra4}}</div>
+  <div>{{cifra5}}</div>
+  <div>{{cifra6}}</div>
+  <div>{{cifra7}}</div>
+  <div>{{cifra8}}</div>
+  <div>{{cifra9}}</div>
+  <div>{{cifra0}}</div>
 
 </div>
 
 <div class="contenedor-operaciones">operaciones
   <div class="contenedor-boton-operaciones">suma
-    <button type="button" onclick="sumar()">mas</button>
+    <button type="button" (click)="sumar()">mas</button>
   </div>
   <div class="contenedor-boton-operaciones">resta
-    <button type="button" onclick="restar()">menos</button>
+    <button type="button" (click)="restar()">menos</button>
   </div>
   <div class="contenedor-boton-operaciones">multiplicacion
-    <button type="button" onclick="multiplicar()">por</button>
+    <button type="button" (click)="multiplicar()">por</button>
   </div>
   <div class="contenedor-boton-operaciones">division
-    <button type="button" onclick="dividir()">entre</button>
+    <button type="button" (click)="dividir()">entre</button>
   </div>
 </div>
