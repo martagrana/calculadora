@@ -25,7 +25,6 @@ export class AppComponent {
 
   sumar() {
     this.resultado = this.cifra2 + this.cifra3;
-
   }
   restar() {
     this.resultado = this.cifra2 - this.cifra3;
@@ -37,6 +36,7 @@ export class AppComponent {
   }
   dividir() {
     this.resultado = this.cifra2 / this.cifra3;
+    this.resultado = Number(this.resultado.toFixed(2));
 
   }
 }
